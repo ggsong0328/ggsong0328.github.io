@@ -1,8 +1,8 @@
 name: Citrus' Blog
 author: ggsong0328
 url: https://ggsong0328.github.io
-baseurl: https://ggsong0328.github.io/
-resume_site: https://ggsong0328.github.io/
+baseurl: https://ggsong0328.github.io
+resume_site: https://ggsong0328.github.io
 description: Song's git blog
 github_username: ggsong0328 
 github: https://github.com/ggsong0328
