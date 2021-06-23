@@ -1,11 +1,11 @@
-name: 
-author: 
-url: 
+name: 송강규
+author: ggsong0328
+url: ggsong0328.github.io
 baseurl: 
 resume_site: 
-description: 
-github_username: 
-github: 
+description: Citrus Git-Blog
+github_username: ggsong0328 
+github: github.com/ggsong0328
 plugins: [jekyll-paginate]
 permalink: /:year-:month-:day-:title
 paginate: 12
