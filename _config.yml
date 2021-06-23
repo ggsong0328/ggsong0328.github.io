@@ -1,11 +1,11 @@
-name: 송강규
+name: Citrus' Blog
 author: ggsong0328
-url: ggsong0328.github.io
-baseurl: 
-resume_site: 
-description: Citrus Git-Blog
+url: https://ggsong0328.github.io
+baseurl: https://ggsong0328.github.io/
+resume_site: https://ggsong0328.github.io/
+description: Song's git blog
 github_username: ggsong0328 
-github: github.com/ggsong0328
+github: https://github.com/ggsong0328
 plugins: [jekyll-paginate]
 permalink: /:year-:month-:day-:title
 paginate: 12
@@ -15,8 +15,8 @@ highlighter: rouge
 markdown: kramdown
 comments :
   gitalk :
-    clientID : 
-    clientSecret : 
-    repo : 
-    owner : 
-    admin : 
+    clientID : xxx
+    clientSecret : xxx
+    repo : ggsong0328.github.io
+    owner : ggsong0328
+    admin : ggsong0328
