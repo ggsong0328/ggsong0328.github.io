@@ -11,7 +11,7 @@ icon: book
 * content
 {:toc}
 
-## sub title
+## 알고리즘(Algorithm)
 
 page...
 
