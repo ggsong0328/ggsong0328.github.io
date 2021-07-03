@@ -8,4 +8,4 @@ title: About site
 
 ## Introduction
 
-some description...
+코딩하기 싫어요 :(
