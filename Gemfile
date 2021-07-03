@@ -30,3 +30,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 
 gem "jekyll-paginate", "~> 1.1"
+
+gem "jekyll-theme-yat"
