@@ -1,0 +1,34 @@
+---
+layout: post
+title: 백준 테스트
+date: 2023-06-28 21:55
+category: BJ
+thumbnail: /style/image/unity.png
+icon: code
+---
+
+
+* content
+{:toc}
+
+## Unity - 2D Game [모각코]
+### 21.7.7
+*7.7 진행상황 - png 파일로 캐릭터 설정, 애니매이션 설정 후, C# 스크립트로 키보드 조작이 가능*  
+- 유니티를 통한 2D게임 클론 코딩  
+- 내가 헷갈려 정리하는 주요 메뉴
+    + Main Camera : 전체적인 카메라 세팅 - 내가 직접 보는 화면  
+    + Sprite : 쉽게 말해 요소(도형, 캐릭터, 땅, 등등...)
+    + Inspector :  
+        * Transform : Inspecting하고 있는 Sprite의 위치 관련 메뉴
+        * Sprite Renderer : 현재 Sprite의 기본적인 설정
+        * __Box Collider 2D__ : 현재 Sprite의 아웃라인
+        * __Rigidbody 2D__ : Sprite의 물리적인 요소 - 중력, 공기 저항 등등
+        * __Animator__ : 
+            - Sprite의 움직임 설정 (Code로 설정해야한다)
+            - Animation을 하기 위해 다양한 png 파일을 다운받았다면 한번에 설정 가능하다.
+![alt layout](/style/image/layout.png)
+![alt code](/style/image/code.png)
+- C#을 통해 player, 즉 움직이고자 하는 캐릭터의 움직임을 설정한다.  
+
+
+
