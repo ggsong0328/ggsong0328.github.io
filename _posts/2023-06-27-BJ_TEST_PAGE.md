@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 백준 테스트
-date: 2023-06-28 21:55
+date: 2023-06-27 21:55
 category: BJ
 thumbnail: /style/image/unity.png
 icon: code
