@@ -43,7 +43,7 @@ layout: default
             {% endif %}
             {% for page in (1..paginator.total_pages) %}
             <li {% if page==paginator.page %} class="current" {% endif %}>
-                <a href="{% if page == 1 %}{{  '/' | prepend: site.baseurl }}{% else %}{{ site.paginate_path | relative_url | replace: ':num', page }}{% endif %}">{{
+                <a href="{% if page == 1 %}{{  '/'  }}{% else %}{{ site.paginate_path | relative_url | replace: ':num', page }}{% endif %}">{{
                     page }}</a>
             </li>
             {% endfor %}
