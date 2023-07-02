@@ -1,10 +1,22 @@
-node_modules
-vendor
+# Bundler cache
 .bundle
-.sass-cache
-.jekyll-metadata
+vendor
+Gemfile.lock
+
+# Jekyll cache
 .jekyll-cache
+_site
+
+# RubyGems
 *.gem
 
-#<removed/js>
-#<removed/css>
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+.vscode
+
+# Misc
+assets/js/dist
