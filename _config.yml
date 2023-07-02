@@ -1,8 +1,5 @@
 # The Site Configuration
 
-include:
- - _javascript
-
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -29,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://ggsong0328.github.io/"
+url: ""
 
 github:
   username: github_username # change to your github username
@@ -57,6 +54,10 @@ google_site_verification: # fill in to your verification string
 
 google_analytics:
   id: # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path: # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
