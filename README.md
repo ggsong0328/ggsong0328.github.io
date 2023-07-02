@@ -1,95 +1,200 @@
 <div align="center">
+  <br>
 
-  # Chirpy Jekyll Theme
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat">
+    <img alt="jekyll-theme-yat →~ jekyll" src="https://user-images.githubusercontent.com/9413601/106478481-346fdf00-64e4-11eb-9385-1ab5329c3234.png" width="600">
+  </a>
 
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)](https://rubygems.org/gems/jekyll-theme-chirpy)
-  [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml)
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)](https://www.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cotes2020/jekyll-theme-chirpy&amp;utm_campaign=Badge_Grade)
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE)
-  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
-
-  [**Live Demo →**][demo]
-
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+  <h1>JEKYLL YAT THEME</h1>
 
 </div>
 
+<h4 align="center">
+  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
+</h4>
+
+<p align="center">
+  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
+    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
+      alt="Github Pages" />
+  </a>
+
+  <a href="https://badge.fury.io/rb/jekyll-theme-yat">
+    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
+      alt="Gem Version" />
+  </a>
+
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
+      alt="License: MIT" />
+  </a>
+
+  <a href="https://liberapay.com/jeffreytse">
+    <img src="https://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
+      alt="Donate (Liberapay)" />
+  </a>
+
+  <a href="https://patreon.com/jeffreytse">
+    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
+      alt="Donate (Patreon)" />
+  </a>
+
+  <a href="https://ko-fi.com/jeffreytse">
+  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
+  alt="Donate (Ko-fi)" />
+  </a>
+</p>
+
+<div align="center">
+  <sub>Built with ❤︎ by
+  <a href="https://jeffreytse.net">jeffreytse</a> and
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
+  </sub>
+</div>
+
+<br>
+
+Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
+_YAT (Yet Another Theme)_ is a modern responsive theme. It's quite
+clear, clean and neat for writers and posts. **If you are an elegant
+writer and focus on content, don't miss it.**
+
+<p align="center">
+Like this elegant theme? You can give it a star or sponsor me!<br>
+I will respect your crucial support and say THANK YOU!
+</p>
+
+<p align="center">
+
+  <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="100%"/>
+
+</p>
+
+<h4 align="center">BANNER</h4>
+
+<p align="center">
+
+  <img src="https://user-images.githubusercontent.com/9413601/123897812-ae729a00-d996-11eb-96b8-b76ba926f555.gif" alt="demo-screenshot" width="100%"/>
+
+</p>
+
 ## Features
 
-<details>
-  <summary>
-    <i>Click to view features</i>
-  </summary>
-  <p>
+- Support beautiful **Night Mode**.
+- Modern responsive web design.
+- Full layouts `home`, `post`, `tags`, `archive` and `about`.
+- Uses font awesome 5 for icons.
+- Beautiful page banner with image and video.
+- Beautiful Syntax Highlight using [highlight.js][highlight-js].
+- RSS support using [Jekyll Feed][jekyll-feed] gem.
+- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
+- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
+- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Google Translation support.
+- New post tag support.
 
-  - Dark / Light Theme Mode
-  - Localized UI language
-  - Pinned Posts
-  - Hierarchical Categories
-  - Trending Tags
-  - Table of Contents
-  - Last Modified Date of Posts
-  - Syntax Highlighting
-  - Mathematical Expressions
-  - Mermaid Diagram & Flowchart
-  - Dark / Light Mode Images
-  - Embed Videos
-  - Disqus / Utterances / Giscus Comments
-  - Search
-  - Atom Feeds
-  - Google Analytics
-  - Page Views Reporting
-  - SEO & Performance Optimization
+Also, visit the [Live Demo][yat-live-demo] site for the theme.
 
-  </p>
-</details>
+## Installation
 
-## Documentation
+There are three ways to install:
 
-To explore usage, development, and upgrade guide of the project, please refer to
-the [Wiki][wiki].
+- As a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
+- As a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible).
+- Forking/directly copying all of the theme files into your project.
+
+### Gem-based Theme Method
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-theme-yat"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: jekyll-theme-yat
+```
+
+And then execute:
+
+```bash
+$ bundle
+```
+
+Or install it yourself as:
+
+```bash
+$ gem install jekyll-theme-yat
+```
+
+### Remote Theme Method with GitHub Pages
+
+Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
+
+To install:
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "github-pages", group: :jekyll_plugins
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+remote_theme: "jeffreytse/jekyll-theme-yat"
+```
+
+And then execute:
+
+```bash
+$ bundle
+```
+
+### GitHub Pages without limitation
+
+GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins/themes](https://pages.github.com/versions/). **In other words, the third-party gems will not work normally**.
+
+To use the third-party gem in GitHub Pages without limitation:
+
+Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
+
+## Usage
+
+Add or update your available layouts, includes, sass and/or assets.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_data`, `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-yat.gemspec` accordingly.
 
 ## Contributing
 
-Welcome to report bugs, help improve the code or submit new features.
-For more information, please see the ["Contributing Guidelines"][contribute-guide].
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
 
-## Credits
-
-This theme is mainly built with [Jekyll][jekyllrb] ecosystem,
-[Bootstrap][bootstrap], [Font Awesome][icons] and some other [wonderful tools][lib].
-The avatar and favicon design come from [Clipart Max][image].
-
-Thanks to all the [contributors][contributors]. Also, folks who submitted issues
-or unmerged PRs should not be forgotten. Because they reported bugs, shared ideas,
-or inspired me to write more readable documentation.
-
-Last but not least, thanks to [JetBrains][jetbrains] for providing the
-_Open Source Development_ license.
-
-## Sponsoring
-
-If you'd like to sponsor this project, the following options are available.
-
-[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/coteschung)
-[![Wechat Pay](https://img.shields.io/badge/-Tip%20Me%20on%20WeChat-brightgreen?logo=wechat&logoColor=white)][donation]
-[![Alipay](https://img.shields.io/badge/-Tip%20Me%20on%20Alipay-blue?logo=alipay&logoColor=white)][donation]
+You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
 
 ## License
 
-This work is published under [MIT][mit] License.
+This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
 
-[jekyllrb]: https://jekyllrb.com/
-[bootstrap]: https://getbootstrap.com/
-[icons]: https://fontawesome.com/
-[image]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/.github/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
-[donation]: https://sponsor.cotes.page/
-[mit]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+<!-- External links -->
+
+[jekyll]: https://jekyllrb.com/
+[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
+[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
+[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
+[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
+[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
+[jekyll-feed]: https://github.com/jekyll/jekyll-feed
+[highlight-js]: https://github.com/highlightjs/highlight.js
