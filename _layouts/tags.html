@@ -1,16 +1,22 @@
 ---
-layout: framework
-sidebar: tag-list
+layout: page
+# All the Tags of posts.
 ---
 
-{%- if site.posts.size > 0 -%}
+<div id="tags" class="d-flex flex-wrap mx-xl-2">
+  {% assign tags = '' | split: '' %}
+  {% for t in site.tags %}
+    {% assign tags = tags | push: t[0] %}
+  {% endfor %}
 
-  {%- include functions.html func='log' level='debug' msg='Get tags value' -%}
-  {%- include functions.html func='get_tags' -%}
-  {% assign tags = return %}
+  {% assign sorted_tags = tags | sort_natural %}
 
-  {% assign keys = tags %}
-  {% assign field = 'tags' %}
-  {%- include views/segments.html -%}
-
-{%- endif -%}
+  {% for t in sorted_tags %}
+    <div>
+      <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+        {{ t -}}
+        <span class="text-muted">{{ site.tags[t].size }}</span>
+      </a>
+    </div>
+  {% endfor %}
+</div>
