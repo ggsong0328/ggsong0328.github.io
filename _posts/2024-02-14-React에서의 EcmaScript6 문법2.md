@@ -282,7 +282,7 @@ console.log(this.state.arrowLabel);
 }.bind(this), 100);
 ```
 
-bind() 함수로 this를 지정해주면, this를 컴포넌트로 사용할 수 있습니다.
+bind() 함수로 this를 지정해주면, this를 컴포넌트로 사용할 수 있다.
 
 ```javascript
 myFn6 = (num1, num2, num3) => {
