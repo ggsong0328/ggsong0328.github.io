@@ -114,7 +114,7 @@ var sumVarObj = Object.assign({}, varObj1, varObj2);
 
 기존 ES5에서는 객체 2개를 합치기 위해서는 Object.assign() 함수를 이용해야 한다.
 
-첫 번째 인자 {}는 함수의 return 값이고 뒤의 인자의 객체들은 콤마로 연결해 나열하면 여러 개의 객체를 합출 수 있다.
+첫 번째 인자 {}는 함수의 return 값이고 뒤의 인자의 객체들은 콤마로 연결해 나열하면 여러 개의 객체를 합칠 수 있다.
 
 ```javascript
 let sumLetObj = { ...varObj1, ...varObj2 };
@@ -246,7 +246,7 @@ this.myFn5();
 this.myFn6(1, 2, 3);
 ```
 
-myFn1 ~ myFn6까지의 함수를 순서대로 호출합니다.
+myFn1 ~ myFn6까지의 함수를 순서대로 호출한다.
 
 ```javascript
 function myFn1(num1) {
@@ -260,7 +260,7 @@ myFn3 = (num1, num2) => {
 
 함수를 function 키워드 대신 => 로 선언했다.
 
-함수 내에서 사용하는 this 컴포넌트인데, this로 컴포넌트의 state에 접근해 사용할 수 있습니다.
+함수 내에서 사용하는 this 컴포넌트인데, this로 컴포넌트의 state에 접근해 사용할 수 있다.
 
 ```javascript
 myFn4() {
