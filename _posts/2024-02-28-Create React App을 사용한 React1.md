@@ -1,5 +1,5 @@
 ---
-title: Create React App을 사용한 React1
+title: Create React App을 사용한 React
 author: ggsong0328
 date: 2024-02-28 18:30:00 +0800
 categories: [리엑트 공부]
