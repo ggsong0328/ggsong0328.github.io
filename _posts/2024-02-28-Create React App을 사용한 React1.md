@@ -1,5 +1,5 @@
 ---
-title: Create React App을 사용한 React
+title: Create React App을 사용한 React 1
 author: ggsong0328
 date: 2024-02-28 18:30:00 +0800
 categories: [리엑트 공부]
@@ -318,13 +318,3 @@ class LifeCycle extends Component {
 
 export default LifeCycle;
 ```
-
-## React에서 jQuery 사용하기
-
----
-
-jQuery는 JavaScript 라이브러리의 한 종류이다.
-
-jQuery는 이벤트 처리, 애니메이션 등 JavaScript의 기능을 간단하고 빠르게 구현할 수 있도록 지원한다.
-
-jQuery를 사용하기 위해선 cmd 창에서 프로젝트 경로로 이동한 후 [npm install jQuery]를 입력하면 설치된다!
