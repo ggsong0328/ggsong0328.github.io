@@ -1,5 +1,5 @@
 ---
-title: Create React App을 사용한 React 3
+title: Create React App을 사용한 React 4
 author: ggsong0328
 date: 2024-03-01 15:30:00 +0800
 categories: [리엑트 공부]
